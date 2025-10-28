@@ -1,0 +1,23 @@
+{
+    "name": "curvestech/laravel-roles",
+    "description": "Simple role > permissions package for laravel apps.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Curvestech\\LaravelRoles\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mubashar Abbas",
+            "email": "mubashir.abbas@outlook.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/database": "^8.0|^9.0|^10.0|^11.0|^12.0",
+        "illuminate/http": "^8.0|^9.0|^10.0|^11.0|^12.0",
+        "illuminate/console": "^8.0|^9.0|^10.0|^11.0|^12.0",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0"
+    }
+}
