@@ -2,6 +2,7 @@
 
 namespace Curvestech\LaravelRoles\Providers;
 use Illuminate\Support\ServiceProvider;
+use Curvestech\LaravelRoles\Commands\InstallRolesCommand;
 
 class RolesServiceProvider extends ServiceProvider
 {
@@ -9,7 +10,7 @@ class RolesServiceProvider extends ServiceProvider
     {
         if ( $this->app->runningInConsole() ) {
             $this->commands([
-                \Curvestech\LaravelRoles\Commands\InstallRolesCommand::class,
+                InstallRolesCommand::class,
             ]);
         }
     }

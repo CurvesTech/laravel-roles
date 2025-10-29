@@ -2,6 +2,7 @@
     "name": "curvestech/laravel-roles",
     "description": "Simple role > permissions package for laravel apps.",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Curvestech\\LaravelRoles\\": "src/"
@@ -19,5 +20,12 @@
         "illuminate/http": "^8.0|^9.0|^10.0|^11.0|^12.0",
         "illuminate/console": "^8.0|^9.0|^10.0|^11.0|^12.0",
         "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Curvestech\\LaravelRoles\\LaravelRolesServiceProvider"
+            ]
+        }
     }
 }
